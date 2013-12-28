@@ -11,7 +11,7 @@ int main()
 	for(i=0;i<20;i++){
 		push(s,i);
 	}
-	//printf("Size of stack: %d %d %d\n",size(s),pop(s),top(s));
+	printf("Size of stack: %d %d %d\n",size(s),pop(s),top(s));
 	printStack(s);
 	delete(s);
 	return 0;
